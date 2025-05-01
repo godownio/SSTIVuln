@@ -1,9 +1,9 @@
 package cn.org.javaweb.sstivuln.demos.web;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+//Thymeleaf SSTI的三种路由，需要前往application.yml开启Thymeleaf
 @Controller
 public class TestController {
 
